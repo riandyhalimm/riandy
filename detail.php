@@ -89,7 +89,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                  <td>Kota</td>
                  <td><h4><?php echo $kota ?></h4></td>
                </tr>
-
+              </table>
                
             </div>
             </div>

@@ -10,7 +10,6 @@ $kota="Medan";
 $lat="";
 $long="";
 foreach($obj->results as $item){
-  $titles.=$item->nama;
   $id.=$item->ID;
   $alamat.=$item->USERNAME;
   $lat.=$item->LATITUDE;
@@ -83,17 +82,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
                  <th>Detail</th>
                </tr>
                <tr>
-                 <td>Nama Perusahaan</td>
-                 <td><h4><?php echo $titles ?></h4></td>
+                 <td>Nama Kampus</td>
+                 <td><h4><?php echo $alamat ?></h4></td>
                </tr>
                <tr>
                  <td>Kota</td>
                  <td><h4><?php echo $kota ?></h4></td>
                </tr>
-               <tr>
-                 <td>Alamat</td>
-                 <td><h4><?php echo $alamat ?></h4></td>
-               </tr>
+
                
             </div>
             </div>

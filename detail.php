@@ -89,6 +89,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
                  <td>Kota</td>
                  <td><h4><?php echo $kota ?></h4></td>
                </tr>
+               <tr>
+                 <td>latitude</td>
+                 <td><h4><?php echo $lat ?></h4></td>
+               </tr>
+               <tr>
+                 <td>longitude</td>
+                 <td><h4><?php echo $long ?></h4></td>
+               </tr>
               </table>
                
             </div>
